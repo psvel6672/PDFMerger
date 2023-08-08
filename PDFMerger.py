@@ -21,4 +21,4 @@ if addPageCnt > 0:
     with open("./OutputPDF/mergedfile_"+str(now)+".pdf", "wb") as outputStream:
         output.write(outputStream)
 else:
-    print("No Files")
+    print("No Files.")
